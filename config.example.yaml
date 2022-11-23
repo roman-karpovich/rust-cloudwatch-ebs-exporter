@@ -1,0 +1,12 @@
+enabled_metrics: []
+instances:
+  rds:
+    - region: us-west-1
+      # todo: make universal interface
+      instance: example
+#        filter:
+#          instance: example
+#        alias: readable_instance_name
+      aws_access_key: example_key
+      aws_secret_key: example_secret
+  ebs: []
